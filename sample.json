@@ -1,0 +1,136 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Birmingham woman at risk of dementia that led to mother's death",
+            "description": "Liv Heeney discovered she had inherited a faulty gene after losing her mother to the rare disease.",
+            "url": "https://www.bbc.co.uk/news/articles/ce32kx79e7eo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c738/live/c7e72570-a069-11f0-9640-9757c7912ee3.png",
+            "publishedAt": "2025-10-05T12:22:25.1174441Z",
+            "content": "After years of deliberating, Liv decided to start the process of genetic testing at Birmingham Women's Hospital in January 2024, in the hope of finding out if she had inherited the same gene that cau… [+680 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Fiji's HIV cases surge due to bluetoothing, chemsex and needle-sharing",
+            "description": "The small South Pacific nation is facing one of the world's fastest growing HIV epidemics.",
+            "url": "https://www.bbc.co.uk/news/articles/c0m42dwvlk8o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d00b/live/ae0af9b0-a1db-11f0-92db-77261a15b9d2.jpg",
+            "publishedAt": "2025-10-05T12:07:23.4618202Z",
+            "content": "Fiji has become a major Pacific trafficking hub for crystal meth over the past 15 years. A large part of this is due to the country's geographic location between East Asia and the Americas some of th… [+1370 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "How the US got left behind in the global electric car race",
+            "description": "Despite a recent surge in demand, the US is a laggard in EV sales compared to much of the rest of the world.",
+            "url": "https://www.bbc.co.uk/news/articles/c8ex2l58en4o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1211/live/e939d750-9fbe-11f0-b73e-e715acbd6a10.jpg",
+            "publishedAt": "2025-10-05T12:07:21.131864Z",
+            "content": "Analysts say adoption in the US has been slowed by comparatively weak government support for the sector, which has limited the kinds of subsidies, trade-in programmes and rules that have helped the i… [+1188 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "My approach will pay off eventually, says Kemi Badenoch",
+            "description": "The Conservative leader defends her leadership as the party's conference begins in Manchester",
+            "url": "https://www.bbc.co.uk/news/articles/c1l81766g2qo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/2510/live/e99ea350-a1d1-11f0-928c-71dbb8619e94.jpg",
+            "publishedAt": "2025-10-05T11:07:28.0705644Z",
+            "content": "In the build-up to the conference, the Conservatives have released a string of policies including an intention to repeal the Climate Change Act, leave the European Convention on Human Rights and a pl… [+1049 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Peacehaven: Fire at East Sussex mosque probed as 'hate crime'",
+            "description": "Video appears to show two people in balaclavas at the mosque before a large blaze spreads.",
+            "url": "https://www.bbc.co.uk/news/articles/cm2dglp43xmo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d1c5/live/cdd0fa30-a1b6-11f0-bd9d-890904e0d38e.jpg",
+            "publishedAt": "2025-10-05T08:52:23.7094923Z",
+            "content": "Video circulating on social media appears to show two people in balaclavas approaching an entry before a large blaze spreads.\r\nThe footage has not been verified by the BBC.\r\nThere is renewed focus ar… [+776 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Before and after images show glaciers vanishing before our eyes",
+            "description": "They are melting like never seen before, changing landscapes around the world beyond recognition.",
+            "url": "https://www.bbc.co.uk/news/articles/ce32ezzq6zlo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/20d7/live/a19d9d30-a07e-11f0-b741-177e3e2c2fc7.jpg",
+            "publishedAt": "2025-10-05T08:22:18.9303267Z",
+            "content": "But all is not lost.\r\nHalf of the ice remaining across the world's mountain glaciers could be preserved if global warming is limited to 1.5C above \"pre-industrial\" levels of the late 1800s, according… [+1792 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Police to get broader powers to crack down on repeated protests",
+            "description": "Officers will be able to tell organisers to move demonstrations if protests have caused \"repeated disorder\".",
+            "url": "https://www.bbc.co.uk/news/articles/c24rmdngrrjo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4b0e/live/83592530-a1b7-11f0-928c-71dbb8619e94.jpg",
+            "publishedAt": "2025-10-05T07:22:18.9289493Z",
+            "content": "The new powers will be \"brought forward as soon as possible\", the Home Office said.\r\nWhile the right to protest is fundamental \"this freedom must be balanced with the freedom of their neighbours to l… [+941 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Queuing: Is waiting in line for hours the new cool thing to do?",
+            "description": "Whether it's waiting in line to try a new bakery, or to grab a bargain at a sample sale, queuing is becoming an activity in itself.",
+            "url": "https://www.bbc.co.uk/news/articles/cgq4e4vgz73o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8d0b/live/20cb86e0-9d27-11f0-b741-177e3e2c2fc7.jpg",
+            "publishedAt": "2025-10-05T07:07:24.8349441Z",
+            "content": "\"Freebies are great,\" Tahira Jan tells me, \"but it's more about how enjoyable something is.\" \r\nTahira's favourite queues have been for brands which \"really think about their customer base, and make i… [+652 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Meghan Markle makes surprise appearance at Paris Fashion Week",
+            "description": "The Duchess of Sussex visits the fashion spectacle for the first time in more than a decade.",
+            "url": "https://www.bbc.co.uk/news/articles/c1471r6e27jo",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/17c3/live/9fb487d0-a1b0-11f0-9fd2-579c9a6035d2.jpg",
+            "publishedAt": "2025-10-05T07:07:21.2577093Z",
+            "content": "The spokesman said: \"Over the years, the duchess has worn a number of designs by Pierpaolo.\r\n\"They have worked closely together collaborating on design for key moments on the world stage.\r\n\"She has l… [+942 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "'I have your nudes and everything to ruin your life' - the cyber scammers targeting teenagers",
+            "description": "The BBC challenges the scammers targeting teenagers like Evan Boettler, who took his own life just 90 minutes after being contacted.",
+            "url": "https://www.bbc.co.uk/news/articles/czrpedexleno",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3d75/live/8dbea6a0-9f99-11f0-8e4d-7723b0da5e04.png",
+            "publishedAt": "2025-10-05T05:37:25.3041252Z",
+            "content": "A spokesperson for Meta said the suggestion that it could eradicate sextortion if it only chose to, was \"simply untrue\". They said the company worked aggressively to fight it by disrupting networks o… [+1605 chars]"
+        }
+    ]
+}
