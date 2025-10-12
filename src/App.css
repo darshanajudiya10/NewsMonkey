@@ -85,6 +85,12 @@ body.dark-mode {
   background-color: #dc3545 !important;
 }
 
+/* Card Styling for Uniform Size */
+.card-img-top {
+  height: 200px !important;
+  object-fit: cover !important;
+}
+
 .light-mode {
   background-color: #ffffff;
   color: #000000;

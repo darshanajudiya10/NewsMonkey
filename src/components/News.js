@@ -69,7 +69,7 @@ class News extends React.Component {
   render() {
     return (
       <div className={this.props.darkMode ? 'dark-mode' : 'light-mode'}>
-        <h1 className="text-center" style={{marginTop: '80px', marginBottom: '20px'}}>{this.props.category} Top Headlines </h1>
+        <h1 className="text-center" style={{marginTop: '80px', marginBottom: '20px'}}>{this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1)} Top Headlines </h1>
         {this.state.loading && this.state.articles.length === 0 && <Spinner />}
         <InfiniteScroll
           dataLength={this.state.articles.length} //This is important field to render the next data
