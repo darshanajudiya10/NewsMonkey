@@ -1,5 +1,5 @@
 import './App.css';
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import News from './components/News';
 import {
@@ -8,46 +8,39 @@ import {
   Route
 } from 'react-router-dom';
 
-export default class App extends Component {
-   pageSize= 12;
-   
-   constructor() {
-     super();
-     this.state = {
-       darkMode: false
-     };
-   }
+const App = () => {
+  const pageSize = 12;
+  const [darkMode, setDarkMode] = useState(false);
 
-  toggleDarkMode = () => {
-    this.setState({ darkMode: !this.state.darkMode });
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
     // Apply dark mode class to body
-    if (!this.state.darkMode) {
+    if (!darkMode) {
       document.body.classList.add('dark-mode');
     } else {
       document.body.classList.remove('dark-mode');
     }
   }
 
-  render() {
-    
-    return (
-      <div>
-        <BrowserRouter>
-          <Navbar darkMode={this.state.darkMode} toggleDarkMode={this.toggleDarkMode} />
-          <div className={this.state.darkMode ? 'dark-mode' : 'light-mode'}>
-            <Routes>
-              <Route path='/' element={<News key='general' pageSize={this.pageSize} country='us' category='general' darkMode={this.state.darkMode} />} />
-              <Route path='/business' element={<News key='business' pageSize={this.pageSize} country='us' category='business' darkMode={this.state.darkMode} />} />
-              <Route path='/entertainment' element={<News key='entertainment' pageSize={this.pageSize} country='us' category='entertainment' darkMode={this.state.darkMode} />} />
-              <Route path='/health' element={<News key='health' pageSize={this.pageSize} country='us' category='health' darkMode={this.state.darkMode} />} />
-              <Route path='/science' element={<News key='science' pageSize={this.pageSize} country='us' category='science' darkMode={this.state.darkMode} />} />
-              <Route path='/sports' element={<News key='sports' pageSize={this.pageSize} country='us' category='sports' darkMode={this.state.darkMode} />} />
-              <Route path='/technology' element={<News key='technology' pageSize={this.pageSize} country='us' category='technology' darkMode={this.state.darkMode} />} />
-            </Routes>
-          </div>
-        </BrowserRouter>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <BrowserRouter>
+        <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+        <div className={darkMode ? 'dark-mode' : 'light-mode'}>
+          <Routes>
+            <Route path='/' element={<News key='general' pageSize={pageSize} country='us' category='general' darkMode={darkMode} />} />
+            <Route path='/business' element={<News key='business' pageSize={pageSize} country='us' category='business' darkMode={darkMode} />} />
+            <Route path='/entertainment' element={<News key='entertainment' pageSize={pageSize} country='us' category='entertainment' darkMode={darkMode} />} />
+            <Route path='/health' element={<News key='health' pageSize={pageSize} country='us' category='health' darkMode={darkMode} />} />
+            <Route path='/science' element={<News key='science' pageSize={pageSize} country='us' category='science' darkMode={darkMode} />} />
+            <Route path='/sports' element={<News key='sports' pageSize={pageSize} country='us' category='sports' darkMode={darkMode} />} />
+            <Route path='/technology' element={<News key='technology' pageSize={pageSize} country='us' category='technology' darkMode={darkMode} />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    </div>
+  );
 }
+
+export default App;
 
