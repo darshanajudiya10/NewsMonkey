@@ -1,42 +1,128 @@
-# TextUtils-React
+# 🐵 NewsMonkey
 
-A simple React-based utility app to perform text transformations and analyses (uppercase, lowercase, word count, reading time, etc.).
+**NewsMonkey** is a daily news web application built with React that fetches and displays the latest news articles across various categories in real time.
 
-## Demo
+---
 
-You can see the live version here:  
-[TextUtils React Demo](https://darshanajudiya10.github.io/TextUtils-React/)  
+## 🚀 Features
 
-> *Note: You’ll need JavaScript enabled in your browser to run the app.* :contentReference[oaicite:0]{index=0}
+- 📰 Browse latest news from multiple categories (Technology, Sports, Entertainment, Business, Health, Science, etc.)
+- 🔄 Real-time news fetched using the [NewsAPI](https://newsapi.org/)
+- 📄 Infinite scroll / pagination for smooth news browsing
+- 🌐 Responsive design — works on desktop and mobile
+- ⚡ Fast and lightweight React app
 
-## Features
+---
 
-- Convert text to **uppercase**  
-- Convert text to **lowercase**  
-- Clear all text  
-- Copy text to clipboard  
-- Count **words** and **characters**  
-- Estimate **reading time**  
-- A simple, responsive UI built with React  
+## 🛠️ Tech Stack
 
-## Tech Stack
+| Technology | Description |
+|---|---|
+| **React** | Frontend UI library |
+| **JavaScript (ES6+)** | Core programming language |
+| **CSS** | Styling and layout |
+| **NewsAPI** | REST API for fetching news |
+| **HTML5** | Markup |
 
-- **React** (JavaScript + JSX)  
-- CSS for styling  
-- GitHub Pages for hosting  
+---
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing.
+## 📦 Getting Started
 
 ### Prerequisites
 
-- Node.js (>= 12.x recommended)  
-- npm or yarn  
+Make sure you have the following installed:
 
-### Installation & Running Locally
+- [Node.js](https://nodejs.org/) (v14 or above)
+- npm (comes with Node.js)
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/darshanajudiya10/TextUtils-React.git
-   cd TextUtils-React
+### Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/darshanajudiya10/NewsMonkey.git
+cd NewsMonkey
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Set up your API key**
+
+   - Sign up at [https://newsapi.org/](https://newsapi.org/) and get your free API key.
+   - Create a `.env` file in the root of the project and add:
+
+```env
+REACT_APP_NEWS_API_KEY=your_api_key_here
+```
+
+4. **Run the app**
+
+```bash
+npm start
+```
+
+The app will open at `http://localhost:3000` in your browser.
+
+---
+
+## 📁 Project Structure
+
+```
+NewsMonkey/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── News.js
+│   │   └── NewsItem.js
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+---
+
+## 🔑 API Reference
+
+This project uses the **NewsAPI** to fetch news articles.
+
+- Base URL: `https://newsapi.org/v2/top-headlines`
+- Parameters used: `country`, `category`, `apiKey`, `page`, `pageSize`
+
+> **Note:** The free tier of NewsAPI only works on `localhost`. For production deployment, you'll need a paid plan.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+**Darshana Judiya**  
+GitHub: [@darshanajudiya10](https://github.com/darshanajudiya10)
+
+---
+
+> ⭐ If you found this project helpful, please give it a star!
